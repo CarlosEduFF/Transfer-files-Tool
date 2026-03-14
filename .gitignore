@@ -1,0 +1,25 @@
+# Pastas do pendrive
+Crack/
+Smart TV/
+Content/
+
+# Arquivos gerados pelo PyInstaller
+build/
+dist/
+*.spec
+
+# Executáveis
+*.exe
+
+# Cache do Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Ambientes virtuais
+venv/
+.env/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
