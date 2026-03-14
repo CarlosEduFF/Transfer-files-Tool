@@ -39,22 +39,13 @@ def modo_instalar():
 
 
 def modo_reverter():
-    """
-    Este modo desfaz o processo anterior.
-
-    Ele:
-    1) Move Content de volta para a raiz
-    2) Move os arquivos da raiz para dentro da pasta Crack
-    """
 
     content_na_tv = os.path.join(SMART_TV, "Content")
 
-    # se Content estiver dentro de Smart TV, mover de volta
     if os.path.exists(content_na_tv):
         shutil.move(content_na_tv, ROOT)
 
-    # percorre todos os arquivos da raiz
-    IGNORAR = [CRACK, SMART_TV, CONTENT, "transfer_files.py"]  # itens a ignorar
+    IGNORAR = ["Crack", "Smart TV", "Content", "transfer_files.py", "transfer_files.exe"]
 
     for item in os.listdir(ROOT):
 
@@ -65,7 +56,6 @@ def modo_reverter():
         destino = os.path.join(CRACK, item)
 
         shutil.move(origem, destino)
-
 
 def main():
 
