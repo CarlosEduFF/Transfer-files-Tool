@@ -31,7 +31,7 @@ def crack_esta_vazio():
     return len(itens_validos) == 0
 
 def main():
-
+    print("Welcome to Mode RGH MD!")
     if crack_esta_vazio():
         print("Modo reversão detectado")
         modo_reverter(CRACK, SMART_TV, ROOT)
