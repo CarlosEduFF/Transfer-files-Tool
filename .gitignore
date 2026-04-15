@@ -1,0 +1,13 @@
+# modelos
+src/model/
+
+# build
+dist/
+build/
+
+# cache whisper
+*.pt
+
+# python
+__pycache__/
+*.pyc
