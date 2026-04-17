@@ -3,8 +3,11 @@
 block_cipher = None
 
 import os
+from PyInstaller.utils.hooks import collect_data_files
 
 project_path = os.path.abspath(".")
+
+whisper_datas = collect_data_files('whisper')
 
 a = Analysis(
     ['src/main.py'],
@@ -15,7 +18,7 @@ a = Analysis(
     datas=[                                                                                                     
         ('src/model', 'model'),
         ('src/data', 'data'),
-    ],
+    ] + whisper_datas,
     hiddenimports=[
         'torch',
         'whisper',

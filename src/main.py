@@ -1,33 +1,16 @@
 import os
 import sys
 
-# 🔧 BASE PATH (funciona no .exe e no código normal)
-def get_base_path():
-    if getattr(sys, 'frozen', False):
-        return os.path.dirname(sys.executable)
-    return os.path.dirname(__file__)
+from src.config import get_base_path, configurar_ffmpeg
 
-
-# 🔧 CONFIGURA FFmpeg (TEM QUE VIR PRIMEIRO)
-def configurar_ffmpeg():
-    base_path = get_base_path()
-
-    ffmpeg_path = os.path.join(base_path, "ffmpeg", "ffmpeg.exe")
-
-    if os.path.exists(ffmpeg_path):
-        os.environ["PATH"] += os.pathsep + os.path.dirname(ffmpeg_path)
-    else:
-        print("⚠️ FFmpeg não encontrado:", ffmpeg_path)
-
-
+# 🔥 EXECUTA PRIMEIRO
 configurar_ffmpeg()
 
-# 👇 Imports depois da config
+# 👇 Só depois disso vêm os outros imports
 from menu import menu_configuracao
 from utils import escolher_audio, resolver_device
 from core.transcriber import Transcriber
 from core.file_manager import salvar_saida
-
 
 def main():
     base_path = get_base_path()
