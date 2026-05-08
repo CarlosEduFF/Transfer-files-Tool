@@ -1,5 +1,7 @@
 # modelos
 src/model/
+src/core/model/
+src/data/models/
 
 # build
 dist/
@@ -11,3 +13,6 @@ build/
 # python
 __pycache__/
 *.pyc
+
+# token huggingface (NÃO commitar!)
+hf_token.txt

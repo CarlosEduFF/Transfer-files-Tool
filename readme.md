@@ -10,11 +10,12 @@ Projeto em Python para transcrição de áudio para texto utilizando o modelo Wh
 * Escolha de modelo (tiny → large)
 * Seleção de idioma ou detecção automática
 * Suporte a CPU ou GPU (CUDA)
+* **Separação de falantes (Speaker Diarization)** — identifica quem fala em cada trecho
 * Exportação em múltiplos formatos:
 
-  * TXT
-  * JSON
-  * SRT (legendas)
+  * TXT (com labels de falante quando ativado)
+  * JSON (com campo `speaker` por segmento)
+  * SRT (legendas com identificação de falante)
 * Estrutura organizada de entrada/saída
 
 ---
@@ -63,6 +64,12 @@ pip install openai-whisper
 pip install torch torchvision torchaudio
 pip install ffmpeg-python
 ```
+
+**Para separação de falantes (opcional):**
+```
+pip install pyannote.audio
+```
+> 📖 Veja [SETUP_DIARIZACAO.md](SETUP_DIARIZACAO.md) para configurar o token HuggingFace necessário.
 
 ---
 

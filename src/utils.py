@@ -1,5 +1,5 @@
 import os
-from src.config import INPUT_DIR
+from config import INPUT_DIR
 import torch 
 EXTENSOES = (".mp3", ".wav", ".m4a", ".mp4")
 
@@ -20,6 +20,24 @@ def escolher_audio(pasta):
 
     escolha = int(input("Escolha: "))
     return os.path.join(INPUT_DIR, arquivos[escolha - 1])
+
+
+def listar_todos_audios(pasta):
+    """Retorna lista com caminhos completos de todos os áudios na pasta."""
+    arquivos = [
+        f for f in os.listdir(pasta)
+        if f.lower().endswith(EXTENSOES)
+    ]
+
+    if not arquivos:
+        print("❌ Nenhum áudio encontrado em /data/input")
+        return []
+
+    print(f"\n🎵 {len(arquivos)} áudio(s) encontrado(s):")
+    for i, nome in enumerate(arquivos, 1):
+        print(f"   [{i}] {nome}")
+
+    return [os.path.join(pasta, f) for f in arquivos]
 
 import torch
 
