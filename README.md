@@ -18,19 +18,6 @@ O monitoramento em tempo real com `pynvml` e `psutil` indicou um efeito cascata 
 2. Estouro de VRAM: a RTX 3050 Laptop com 4 GB de VRAM ficava próxima do limite físico. O log registrou `3991MB / 4096MB (97.4%)`.
 3. Gargalo de RAM e paging: com a VRAM esgotada, texturas e buffers passam a pressionar a RAM do sistema. O log registrou `99.8%` de RAM, cenário propício para paginação em disco e input lag.
 
-### Evidência dos logs
-
-```text
-PLACA DE VIDEO (RTX 3050):
-  - Uso da GPU: 19%
-  - Memoria VRAM: 3991MB / 4096MB (97.4%) -> [ESTOURO DE VRAM]
-SISTEMA:
-  - Uso da CPU: 91.1%
-  - Uso da RAM: 99.8% -> [ESTOURO DE RAM FISICA]
-RESOLUCAO DETECTADA:
-  - Principal/Notebook: 3840x2160 -> [PROJECAO EM 4K DETECTADA]
-```
-
 ## Arquitetura
 
 Os arquivos `monitor.py` e `optimize_resolution.py` continuam existindo como entradas simples para manter o uso direto pela linha de comando. A lógica principal fica no pacote `hdmi_optimizer/`.
