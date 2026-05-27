@@ -1,0 +1,107 @@
+=== LOG DE MONITORAMENTO - NVIDIA GeForce RTX 3050 Laptop GPU ===
+
+Horario: 18:09:14
+-----------------------------------------
+PLACA DE VIDEO (NVIDIA GeForce RTX 3050 Laptop GPU):
+  - Uso da GPU: 0%
+  - Temperatura: 36 C
+  - Memoria VRAM: 198MB / 4096MB (4.8%)
+-----------------------------------------
+SISTEMA:
+  - Uso da CPU: 29.3%
+  - Uso da RAM: 86.3%
+-----------------------------------------
+RESOLUCAO DETECTADA:
+  - Principal/Notebook: 1920x1080
+-----------------------------------------
+
+Horario: 18:09:16
+-----------------------------------------
+PLACA DE VIDEO (NVIDIA GeForce RTX 3050 Laptop GPU):
+  - Uso da GPU: 0%
+  - Temperatura: 36 C
+  - Memoria VRAM: 198MB / 4096MB (4.8%)
+-----------------------------------------
+SISTEMA:
+  - Uso da CPU: 10.1%
+  - Uso da RAM: 86.6%
+-----------------------------------------
+RESOLUCAO DETECTADA:
+  - Principal/Notebook: 1920x1080
+-----------------------------------------
+
+Horario: 18:09:18
+-----------------------------------------
+PLACA DE VIDEO (NVIDIA GeForce RTX 3050 Laptop GPU):
+  - Uso da GPU: 0%
+  - Temperatura: 36 C
+  - Memoria VRAM: 198MB / 4096MB (4.8%)
+-----------------------------------------
+SISTEMA:
+  - Uso da CPU: 6.1%
+  - Uso da RAM: 86.6%
+-----------------------------------------
+RESOLUCAO DETECTADA:
+  - Principal/Notebook: 1920x1080
+-----------------------------------------
+
+Horario: 18:09:20
+-----------------------------------------
+PLACA DE VIDEO (NVIDIA GeForce RTX 3050 Laptop GPU):
+  - Uso da GPU: 0%
+  - Temperatura: 36 C
+  - Memoria VRAM: 198MB / 4096MB (4.8%)
+-----------------------------------------
+SISTEMA:
+  - Uso da CPU: 7.8%
+  - Uso da RAM: 87.8%
+-----------------------------------------
+RESOLUCAO DETECTADA:
+  - Principal/Notebook: 1920x1080
+-----------------------------------------
+
+Horario: 18:09:22
+-----------------------------------------
+PLACA DE VIDEO (NVIDIA GeForce RTX 3050 Laptop GPU):
+  - Uso da GPU: 0%
+  - Temperatura: 36 C
+  - Memoria VRAM: 198MB / 4096MB (4.8%)
+-----------------------------------------
+SISTEMA:
+  - Uso da CPU: 12.3%
+  - Uso da RAM: 86.2%
+-----------------------------------------
+RESOLUCAO DETECTADA:
+  - Principal/Notebook: 1920x1080
+-----------------------------------------
+
+Horario: 18:09:24
+-----------------------------------------
+PLACA DE VIDEO (NVIDIA GeForce RTX 3050 Laptop GPU):
+  - Uso da GPU: 0%
+  - Temperatura: 36 C
+  - Memoria VRAM: 198MB / 4096MB (4.8%)
+-----------------------------------------
+SISTEMA:
+  - Uso da CPU: 7.6%
+  - Uso da RAM: 86.2%
+-----------------------------------------
+RESOLUCAO DETECTADA:
+  - Principal/Notebook: 1920x1080
+-----------------------------------------
+
+Horario: 18:09:26
+-----------------------------------------
+PLACA DE VIDEO (NVIDIA GeForce RTX 3050 Laptop GPU):
+  - Uso da GPU: 0%
+  - Temperatura: 36 C
+  - Memoria VRAM: 198MB / 4096MB (4.8%)
+-----------------------------------------
+SISTEMA:
+  - Uso da CPU: 12.7%
+  - Uso da RAM: 85.2%
+-----------------------------------------
+RESOLUCAO DETECTADA:
+  - Principal/Notebook: 1920x1080
+-----------------------------------------
+

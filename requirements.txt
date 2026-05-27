@@ -1,0 +1,4 @@
+psutil
+screeninfo
+nvidia-ml-py
+pywin32
