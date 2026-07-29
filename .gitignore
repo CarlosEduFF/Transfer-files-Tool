@@ -1,0 +1,21 @@
+# Cache do Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Ambientes virtuais
+venv/
+.venv/
+.env/
+
+# Repositórios clonados/mirrors criados pelo próprio migrate_repos.py
+# (o script clona na pasta atual por padrão — não são parte da ferramenta)
+*-mirror/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
