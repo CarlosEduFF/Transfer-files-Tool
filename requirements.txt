@@ -1,0 +1,3 @@
+SpeechRecognition
+yt-dlp>=2026.01.01
+moviepy
