@@ -1,0 +1,55 @@
+# Byte-compiled / optimizados
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribuição / empacotamento
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+wheels/
+pip-wheel-metadata/
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+ENV/
+
+# Testes e cobertura
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.cache/
+coverage.xml
+
+# Type checkers / linters
+.mypy_cache/
+.ruff_cache/
+.pyre/
+
+# Saídas geradas pela ferramenta (artefatos de PDF/imagem)
+*_split.pdf
+*_compressed.pdf
+*_rotated.pdf
+*_partes/
+*_images/
+merged.pdf
+output.pdf
+
+# IDEs / editores
+.vscode/
+.idea/
+*.swp
+*~
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+.claude
